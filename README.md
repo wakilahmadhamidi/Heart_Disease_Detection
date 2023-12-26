@@ -40,7 +40,7 @@ If you would like to contribute to this project, please follow the contributing 
 # Wakil Ahmad Hamidi
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the Apache-2.0 License.
 
 # Contact
 For inquiries, please contact [wakilahmadhamidi24@gmail.com].
