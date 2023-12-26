@@ -2,7 +2,7 @@
 
 Heart disease is a general term that includes many types of heart problems. It's also called cardiovascular disease, which means heart and blood vessel disease. Heart disease is the leading cause of death worldwide, but there are ways to prevent and manage many types of heart disease.
 
-Worldwide each year Cardiovascular disease causes an estimated 17 million deaths accounting for one-third of all deaths worldwide. Out of this, more than one-third of deaths occur in middle-aged adults. Cardiovascular disease majorly includes Coronary heart disease (CHD) and Cerebrovascular disease (stroke). Coronary Artery Disease(CAD) also commonly known as Coronary Heart Disease(CHD).
+Worldwide each year Cardiovascular disease causes an estimated 17 million deaths accounting for one-third of all deaths worldwide. Out of this, more than one-third of deaths occur in middle-aged adults. Cardiovascular disease majorly includes Coronary Artery disease (CAD) Heart Failure and Stroke, among these we will be mainly focusing on CAD.
 
 # Introduction
 Coronary artery disease is a leading cause of morbidity and mortality worldwide. Early detection and timely intervention play a crucial role in preventing adverse cardiac events. This project leverages machine learning algorithms to analyze health-related data and predict the likelihood of coronary artery disease in individuals.
