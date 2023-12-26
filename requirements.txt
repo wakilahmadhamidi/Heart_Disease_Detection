@@ -3,5 +3,3 @@ pandas
 numpy
 joblib
 scikit_learn
-gunicorn
-Werkzeug
