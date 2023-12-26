@@ -39,10 +39,10 @@ If you would like to contribute to this project, please follow the contributing 
 
 # Wakil Ahmad Hamidi
 
-License
+# License
 This project is licensed under the MIT License.
 
-Contact
-For inquiries, please contact [your-email@example.com].
+# Contact
+For inquiries, please contact [wakilahmadhamidi24@gmail.com].
 
 Thank you for contributing to a healthier future!
