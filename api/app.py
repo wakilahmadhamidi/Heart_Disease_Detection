@@ -8,7 +8,7 @@ app = Flask(__name__)
 model = joblib.load('Heart_Disease_Prediction.pkl')  
 @app.route('/')  
 def home():  
-    return render_template("home.html")  
+    return render_template("index.html")  
 @app.route("/predict", methods=["POST"])  
 def predict():  
     age = request.form["age"]  
@@ -33,7 +33,7 @@ def predict():
         res_val = "NO HEART PROBLEM"  
     else:  
         res_val = "HEART PROBLEM"  
-    return render_template('home.html', prediction_text='PATIENT HAS {}'.format(res_val))  
+    return render_template('index.html', prediction_text='PATIENT HAS {}'.format(res_val))  
 
 if __name__ == "__main__":  
     app.run(debug=True) 
