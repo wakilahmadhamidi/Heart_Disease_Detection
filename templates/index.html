@@ -1,17 +1,25 @@
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>Heart Disease Prediction</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="../img/OD+LOGO.png">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Heart Disease Prediction</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+		<style>
+			/* Added Form CSS */
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-  * {
+		* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,88 +27,95 @@
     color: black;
   }
 
-  body {
-    background: url("https://cdn.pixabay.com/photo/2022/12/19/06/57/stethoscope-7664837_960_720.jpg") no-repeat top center;
-    padding: 0 10px;
-    background-size: cover;
-  }
+	body {
+		background: url("https://cdn.pixabay.com/photo/2022/12/19/06/57/stethoscope-7664837_960_720.jpg") no-repeat top center;
+		padding: 0 10px;
+		background-size: cover;
+	}
 
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
+	.navbar {
+		overflow: hidden;
+		background-color: #333;
+	}
 
-  .navbar a {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+	.navbar a {
+		float: right;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
 
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+	.navbar a:hover {
+		background-color: #ddd;
+		color: black;
+	}
 
-  .wrapper {
-    max-width: 500px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    margin: 20px auto;
-    padding: 30px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1.25);
-  }
+		.wrapper {
+		max-width: 600px;
+		width: 100%;
+		background: #1a76d1a7;
+		margin: 20px auto;
+		padding: 30px;
+		box-shadow: 1px 1px 2px rgba(0, 0, 0, 1.25);
+		}
 
-  .wrapper .title {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 25px;
-    color: #fec107;
-    text-transform: uppercase;
-    text-align: center;
-  }
+		.wrapper .title {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 25px;
+		color: #fec107;
+		text-transform: uppercase;
+		text-align: center;
+		}
 
-  .wrapper .form {
-    width: 100%;
-  }
+		.wrapper .form {
+		width: 100%;
+		}
 
-  .wrapper .form .input_field {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-  }
+		.wrapper .form .input_field {
+		margin-bottom: 15px;
+		display: flex;
+		align-items: center;
+		}
 
-  .wrapper .form .input_field label {
-    width: 80px;
-    font: bold;
-    color: wheat;
-    margin-right: 10px;
-    font-size: 14px;
-  }
+		.wrapper .form .input_field label {
+		width: 80px;
+		font: bold;
+		color: rgb(255, 255, 255);
+		margin-right: 10px;
+		font-size: 14px;
+		}
 
-  .wrapper .form .input_field input {
-    width: 100px;
-  }
+		.wrapper .form .input_field input {
+		width: 100px;
+		}
 
-  .wrapper .form .input_field .textarea {
-    resize: none;
-    height: 250px;
-    width: 500px;
-  }
-</style>
-
-<body>
-  <div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-  </div>
+		.wrapper .form .input_field .textarea {
+		resize: none;
+		height: 250px;
+		width: 600px;
+		}
+	/* Added Form CSS */
+		</style>
+		
+    </head>
+    <body>
+		<div class="navbar">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+		  </div>
+		  <form action="{{ url_for('predict')}}" method="post">
+			<div class="wrapper">
+			  <div class="title">
+				<h1 style="color: white;">Heart Disease Prediction</h1>
+			</div> 
   <form action="{{ url_for('predict')}}" method="post">
     <div class="wrapper">
       <div class="title">
-        <h1 style="color: white;">Heart Disease Prediction</h1>
+        <h1 style="color: white;">Coronary Artery Disease</h1>
       </div> 
      <div class="form">  
        <div class="input_field">  
@@ -220,5 +235,5 @@
      </div>  
    </div>  
  </form>  
- </body>  
- </html>  
+    </body>
+</html>
