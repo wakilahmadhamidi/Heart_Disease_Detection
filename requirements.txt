@@ -3,5 +3,5 @@ pandas
 numpy
 joblib
 scikit_learn
-gunicorn
-Werkzeug
+seaborn
+Jinja2
