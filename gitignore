@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration file (for example, Flask config)
+instance/
+
+# Environment variables file
+.env
+
+# Compiled Python files
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE (e.g., VS Code, PyCharm) configuration files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+db.sqlite
+
+# Output of running the app
+/__pycache__/
+/static/
+/uploads/
+/instance/
+/config.py
