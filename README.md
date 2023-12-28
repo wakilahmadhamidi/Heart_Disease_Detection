@@ -17,10 +17,13 @@ Web Application: The trained model is integrated into a web application that all
 # How to Use
 Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/heart-disease-detection.git
+
 Install Dependencies
+
+Run app.py
+
+Give Parameters and Predict
 
 # Input Health Data:
 
@@ -37,12 +40,13 @@ The dataset used in this project is sourced from Kagel, Cleveland Dataset.
 # Contributing
 If you would like to contribute to this project, please follow the contributing guidelines.
 
-# Wakil Ahmad Hamidi
-
 # License
 This project is licensed under the Apache-2.0 License.
 
 # Contact
-For inquiries, please contact [wakilahmadhamidi24@gmail.com].
+Wakil Ahmad Hamidi
+For inquiries, please contact [wakilahmadhamidi24@gmail.com]
+follow on Github:https://github.com/wakilahmadhamidi
+follow on LinkedIn: https://www.linkedin.com/in/wakil-ahmad-hamidi-34aa37174/
 
 Thank you for contributing to a healthier future!
